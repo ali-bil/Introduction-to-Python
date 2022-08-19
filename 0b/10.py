@@ -36,9 +36,7 @@ distance=((x0-x1)**2+(y0-y1)**2)**0.5
 # Test output
 # Student should not change this code.
 
-print "The distance from (" + str(x0) + ", " + str(y0) + ") to", 
-print "(" + str(x1) + ", " + str(y1) + ") is " + str(distance) + "."
-
+print ("The distance from (" + str(x0) + ", " + str(y0) + ") to", "(" + str(x1) + ", " + str(y1) + ") is " + str(distance) + ".")
 
 ###################################################
 # Expected output

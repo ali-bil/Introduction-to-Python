@@ -37,9 +37,9 @@ area=(s*(s-a)*(s-b)*(s-c))**0.5
 # Test output
 # Student should not change this code.
 
-print "A triangle with vertices (" + str(x0) + "," + str(y0) + "),",
-print "(" + str(x1) + "," + str(y1) + "), and",
-print "(" + str(x2) + "," + str(y2) + ") has an area of " + str(area) + "."
+print ("A triangle with vertices (" + str(x0) + "," + str(y0) + "),",
+ "(" + str(x1) + "," + str(y1) + "), and",
+ "(" + str(x2) + "," + str(y2) + ") has an area of " + str(area) + ".")
 
 
 ###################################################

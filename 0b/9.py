@@ -29,7 +29,7 @@ statement=name+" is "+str(age)+" years old."
 # Test output
 # Student should not change this code.
 
-print statement
+print (statement)
 
 ###################################################
 # Expected output

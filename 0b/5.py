@@ -27,9 +27,7 @@ circumference=2*PI*radius
 # Test output
 # Student should not change this code.
 
-print "A circle with a radius of " + str(radius),
-print "inches has a circumference of " + str(circumference) + " inches."
-
+print ("A circle with a radius of " + str(radius), "inches has a circumference of " + str(circumference) + " inches.")
 
 ###################################################
 # Expected output

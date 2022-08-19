@@ -32,8 +32,7 @@ future_value=present_value*(1+0.01*annual_rate)**years
 # Test output
 # Student should not change this code.
 
-print "The future value of $" + str(present_value) + " in " + str(years),
-print "years at an annual rate of " + str(annual_rate) + "% is $" + str(future_value) + "."
+print ("The future value of $" + str(present_value) + " in " + str(years),"years at an annual rate of " + str(annual_rate) + "% is $" + str(future_value) + ".")
 
 
 ###################################################

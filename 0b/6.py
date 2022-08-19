@@ -27,9 +27,7 @@ area=PI*radius**2
 # Test output
 # Student should not change this code.
 
-print "A circle with a radius of " + str(radius),
-print "inches has an area of " + str(area) + " square inches."
-
+print ("A circle with a radius of " + str(radius), "inches has an area of " + str(area) + " square inches.")
 
 ###################################################
 # Expected output

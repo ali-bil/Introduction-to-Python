@@ -27,7 +27,7 @@ feet = miles*5280
 # Test output
 # Student should not change this code.
 
-print str(miles) + " miles equals " + str(feet) + " feet."
+print (str(miles) , " miles equals " , str(feet) , " feet.")
 
 
 ###################################################

@@ -3,7 +3,7 @@
 ###################################################
 # Hours, minutes, and seconds to seconds conversion formula
 # Student should enter statement on the next line.
-print 37+21*60+7*60**2
+print (37+21*60+7*60**2)
 
 
 ###################################################

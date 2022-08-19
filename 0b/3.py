@@ -29,9 +29,7 @@ perimeter=(width+height)*2
 # Test output
 # Student should not change this code.
 
-print "A rectangle " + str(width) + " inches wide and " + str(height),
-print "inches high has a perimeter of " + str(perimeter) + " inches."
-
+print ("A rectangle " + str(width) + " inches wide and " + str(height),"inches high has a perimeter of " + str(perimeter) + " inches.")
 
 ###################################################
 # Expected output

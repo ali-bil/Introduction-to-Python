@@ -29,8 +29,7 @@ area=width*height
 # Test output
 # Student should not change this code.
 
-print "A rectangle " + str(width) + " inches wide and " + str(height),
-print "inches high has an area of " + str(area) + " square inches."
+print ("A rectangle " + str(width) + " inches wide and " + str(height), "inches high has an area of " + str(area) + " square inches.")
 
 
 ###################################################
