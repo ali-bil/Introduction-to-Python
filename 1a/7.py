@@ -4,7 +4,7 @@
 # Future value formula
 # Student should enter function on the next lines.
 def future_value(present_value, annual_rate, years):
-    return present_value*(1+0.01*annual_rate)**years
+    return present_value * (1 + 0.01 * annual_rate) ** years
 
 
 ###################################################
@@ -14,9 +14,9 @@ def future_value(present_value, annual_rate, years):
 def test(present_value, annual_rate, years):
     """Tests the future_value function."""
     
-    print "The future value of $" + str(present_value) + " in " + str(years),
-    print "years at an annual rate of " + str(annual_rate) + "% is",
-    print "$" + str(future_value(present_value, annual_rate, years)) + "."
+    print ("The future value of $" + str(present_value) + " in " + str(years)),
+    print ("years at an annual rate of " + str(annual_rate) + "% is"),
+    print ("$" + str(future_value(present_value, annual_rate, years)) + ".")
 
 
 ###################################################
@@ -24,8 +24,8 @@ def test(present_value, annual_rate, years):
 # Student should uncomment ONLY ONE of the following at a time.
 
 test(1000, 7, 10)
-test(200, 4, 5)
-test(1000, 3, 20)
+#test(200, 4, 5)
+#test(1000, 3, 20)
 
 
 ###################################################

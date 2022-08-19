@@ -5,16 +5,16 @@
 # Student should enter function on the next lines.
 
 def smaller_root(a, b, c):
-    discriminant=b**2-4*a*c
+    discriminant = b ** 2 - 4 * a * c
      
     if discriminant < 0:
-        print "Error: No real solutions"
+        print ("Error: No real solutions")
     elif discriminant == 0:
-        return -b/(2*a)
+        return - b / (2 * a)
     else:
-        x1=(-b+discriminant**0.5)/(2*a)
-        x2=(-b-discriminant**0.5)/(2*a)
-        if x1<x2:
+        x1=(- b + discriminant ** 0.5) / (2 * a)
+        x2=(- b - discriminant ** 0.5) / (2 * a)
+        if x1 < x2:
             return x1
         else:
             return x2
@@ -27,13 +27,13 @@ def smaller_root(a, b, c):
 def test(a, b, c):
     """Tests the smaller_root function."""
     
-    print "The smaller root of " + str(a) + "x^2 + " + str(b) + "x + " + str(c) + " is:" 
-    print str(smaller_root(a, b, c))
+    print ("The smaller root of " + str(a) + "x^2 + " + str(b) + "x + " + str(c) + " is:" ),
+    print (str(smaller_root(a, b, c)))
         
 
 test(1, 2, 3)
-test(2, 0, -10)
-test(6, -3, 5)
+#test(2, 0, -10)
+#test(6, -3, 5)
 
 
 ###################################################

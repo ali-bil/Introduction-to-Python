@@ -57,9 +57,9 @@ def rpsls(player_choice):
     #Player wins!
     
     # print a blank line to separate consecutive games
-    print
+    print()
     # print out the message for the player's choice
-    print "Player chooses "+player_choice
+    print ("Player chooses "+player_choice)
     # convert the player's choice to player_number using the function name_to_number()
     player_number = name_to_number(player_choice)
     # compute random guess for comp_number using random.randrange()
@@ -67,25 +67,25 @@ def rpsls(player_choice):
     # convert comp_number to comp_choice using the function number_to_name()
     comp_choice = number_to_name(comp_number)
     # print out the message for computer's choice
-    print "Computer chooses "+comp_choice
+    print ("Computer chooses "+comp_choice)
     # compute difference of comp_number and player_number modulo five
     difference = (comp_number - player_number)%5
     # use if/elif/else to determine winner, print winner message
     if difference == 1 or difference == 2 :
-        print "Computer wins!"
+        print ("Computer wins!")
     elif difference == 3 or difference == 4 :
-        print "Player wins!"
+        print ("Player wins!")
     elif difference == 0:
-        print "Player and computer tie!"
+        print ("Player and computer tie!")
     else:
-        print "not correct difference"
+        print ("not correct difference")
     
 # test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE
 rpsls("rock")
-rpsls("Spock")
-rpsls("paper")
-rpsls("lizard")
-rpsls("scissors")
+#rpsls("Spock")
+#rpsls("paper")
+#rpsls("lizard")
+#rpsls("scissors")
 
 # always remember to check your completed program against the grading rubric
 

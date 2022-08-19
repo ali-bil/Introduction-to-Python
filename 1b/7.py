@@ -6,20 +6,20 @@
 
 def print_digits(number):
     if number >= 100 or number < 0:
-        print "Error: Input is not a two-digit number."
+        print ("Error: Input is not a two-digit number.")
     else:
         tens = number // 10
         ones = number % 10
-        print "The tens digit is "+str(tens)+", and the ones digit is "+str(ones)+"."
+        print ("The tens digit is "+str(tens)+", and the ones digit is "+str(ones)+".")
     
 ###################################################
 # Tests
 # Student should not change this code.
     
 print_digits(42)
-print_digits(99)
-print_digits(5)
-print_digits(459)
+#print_digits(99)
+#print_digits(5)
+#print_digits(459)
 
 
 ###################################################

@@ -23,11 +23,11 @@ def pig_latin(word):
 def test(word):
     """Tests the pig_latin function."""
     
-    print pig_latin(word)
+    print (pig_latin(word))
     
 test("pig")
-test("owl")
-test("python")
+#test("owl")
+#test("python")
 
 
 ###################################################

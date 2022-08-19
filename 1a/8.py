@@ -4,7 +4,7 @@
 # Name tag formula
 # Student should enter function on the next lines.
 def name_tag(first_name, last_name):
-    return "My name is "+first_name+" "+last_name+"."
+    return "My name is "+ first_name +" " + last_name + "."
 
 
 ###################################################
@@ -12,11 +12,11 @@ def name_tag(first_name, last_name):
 # Student should not change this code.
 
 def test(first_name, last_name):
-    print name_tag(first_name, last_name)
+    print (name_tag(first_name, last_name))
     
 test("Joe", "Warren")
-test("Scott", "Rixner")
-test("John", "Greiner")
+#test("Scott", "Rixner")
+#test("John", "Greiner")
 
 
 ###################################################

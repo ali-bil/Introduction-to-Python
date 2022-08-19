@@ -4,18 +4,18 @@
 # Name and age formula
 # Student should enter function on the next lines.
 def name_and_age(name, age):
-    return name+" is "+str(age)+" years old."
+    return name + " is " + str(age) + " years old."
 
 ###################################################
 # Tests
 # Student should not change this code.
 
 def test(name, age):
-    print name_and_age(name, age)
+    print (name_and_age(name, age))
     
 test("Joe Warren", 52)
-test("Scott Rixner", 40)
-test("John Greiner", 46)
+#test("Scott Rixner", 40)
+#test("John Greiner", 46)
 
 
 ###################################################

@@ -17,13 +17,13 @@ def is_even(number):
 def test(number):
     """Tests the is_even function."""
     if is_even(number):
-        print number, "is even."
+        print (number, "is even.")
     else:
-        print number, "is odd."
+        print (number, "is odd.")
 
 test(8)
-test(3)
-test(12)
+#test(3)
+#test(12)
 
 ###################################################
 # Expected output

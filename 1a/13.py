@@ -5,9 +5,7 @@
 # Student should enter function on the next lines.
 import random
 def powerball():
-    print "Today’s numbers are ",random.randrange(1, 60),",",random.randrange(1, 60),",",random.randrange(1, 60),",",random.randrange(1, 60),", and ",random.randrange(1, 60),". The Powerball number is ",random.randrange(1, 36),"."
-
-    
+    print ("Today’s numbers are ",random.randrange(1, 60),",",random.randrange(1, 60),",",random.randrange(1, 60),",",random.randrange(1, 60),", and ",random.randrange(1, 60),". The Powerball number is ",random.randrange(1, 36),".")    
 ###################################################
 # Tests
 # Student should not change this code.

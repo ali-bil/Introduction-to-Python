@@ -6,20 +6,20 @@
 
 import math
 def circle_area(radius):
-    return math.pi*radius**2
+    return math.pi * radius ** 2
 
 ###################################################
 # Tests
 # Student should not change this code.
 
 def test(radius):
-    print "A circle with a radius of " + str(radius),
-    print "inches has an area of",
-    print str(circle_area(radius)) + " square inches."
+    print ("A circle with a radius of " + str(radius)),
+    print ("inches has an area of"),
+    print (str(circle_area(radius)) + " square inches.")
 
 test(8)
-test(3)
-test(12.9)
+#test(3)
+#test(12.9)
 
 ###################################################
 # Expected output

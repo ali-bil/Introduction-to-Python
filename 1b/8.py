@@ -23,13 +23,13 @@ def name_lookup(first_name):
 def test(first_name):
     """Tests the name_lookup function."""
     
-    print name_lookup(first_name)
+    print (name_lookup(first_name))
     
 test("Joe")
-test("Scott")
-test("John")
-test("Stephen")
-test("Mary")
+#test("Scott")
+#test("John")
+#test("Stephen")
+#test("Mary")
 
 
 ###################################################

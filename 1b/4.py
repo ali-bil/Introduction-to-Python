@@ -20,14 +20,14 @@ def is_leap_year(year):
 def test(year):
     """Tests the is_leapyear function."""
     if is_leap_year(year):
-        print year, "is a leap year."
+        print (year, "is a leap year.")
     else:
-        print year, "is not a leap year."
+        print( year, "is not a leap year.")
 
 test(2000)
-test(1996)
-test(1800)
-test(2013)
+#test(1996)
+#test(1800)
+#test(2013)
 
 ###################################################
 # Expected output

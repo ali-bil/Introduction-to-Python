@@ -8,7 +8,7 @@ def name_and_age(name, age):
     if age < 0:
         return "Error: Invalid age"
     else:
-        return name+"is "+str(age)+" years old."
+        return name + "is " + str(age) + " years old."
 ###################################################
 # Tests
 # Student should not change this code.
@@ -16,11 +16,11 @@ def name_and_age(name, age):
 def test(name, age):
     """Tests the name_and_age function."""
     
-    print name_and_age(name, age)
+    print (name_and_age(name, age))
     
 test("Joe Warren", 52)
-test("Scott Rixner", 40)
-test("John Greiner", -46)
+#test("Scott Rixner", 40)
+#test("John Greiner", -46)
 
 
 ###################################################
