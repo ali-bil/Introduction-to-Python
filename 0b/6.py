@@ -10,18 +10,18 @@ radius = 8
 
 
 # Test 2 - Select the following lines and use ctrl+shift+k to uncomment.
-radius = 3
+#radius = 3
 
 
 # Test 3 - Select the following lines and use ctrl+shift+k to uncomment.
-radius = 12.9
+#radius = 12.9
 
 
 ###################################################
 # Circle area formula
 # Student should enter formula on the next line.
 
-area=PI*radius**2
+area = PI * radius ** 2
 
 ###################################################
 # Test output

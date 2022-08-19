@@ -3,7 +3,7 @@
 ###################################################
 # Rectangle area formula
 # Student should enter statement on the next line.
-print (4*7)
+print (4 * 7)
 
 ###################################################
 # Expected output

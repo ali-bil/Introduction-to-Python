@@ -11,13 +11,13 @@ seconds = 37
 
 
 # Test 2 - Select the following lines and use ctrl+shift+k to uncomment.
-hours = 10
+'''hours = 10
 minutes = 1
-seconds = 7
+seconds = 7'''
 ###################################################
 # Hours, minutes, and seconds to seconds conversion formula
 # Student should enter formula on the next line.
-total_seconds=(hours*60+minutes)*60+seconds
+total_seconds=(hours * 60 + minutes) * 60 + seconds
 
 
 ###################################################

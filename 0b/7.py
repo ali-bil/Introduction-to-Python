@@ -11,22 +11,22 @@ years = 10
 
 
 # Test 2 - Select the following lines and use ctrl+shift+k to uncomment.
-present_value = 200
+'''present_value = 200
 annual_rate = 4
 years = 5
-
+'''
 
 # Test 3 - Select the following lines and use ctrl+shift+k to uncomment.
-present_value = 1000
+'''present_value = 1000
 annual_rate = 3
-years = 20
+years = 20'''
 
 
 ###################################################
 # Future value formula
 # Student should enter formula on the next line.
 
-future_value=present_value*(1+0.01*annual_rate)**years
+future_value = present_value * (1 + 0.01 * annual_rate) ** years
 
 ###################################################
 # Test output

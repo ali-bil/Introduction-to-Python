@@ -12,26 +12,26 @@ x2, y2 = 1, 1
 
 
 # Test 2 - Select the following lines and use ctrl+shift+k to uncomment.
-x0, y0 = -2, 4
+'''x0, y0 = -2, 4
 x1, y1 = 1, 6
-x2, y2 = 2, 1
+x2, y2 = 2, 1'''
 
 
 # Test 3 - Select the following lines and use ctrl+shift+k to uncomment.
-x0, y0 = 10, 0
+'''x0, y0 = 10, 0
 x1, y1 = 0, 0
-x2, y2 = 0, 10
+x2, y2 = 0, 10'''
 
 
 ###################################################
 # Triangle area (Heron's) formula
 # Student should enter formulas on the next lines.
 
-a=((x0-x1)**2+(y0-y1)**2)**0.5
-b=((x1-x2)**2+(y1-y2)**2)**0.5
-c=((x2-x0)**2+(y2-y0)**2)**0.5
-s=(a+b+c)/2
-area=(s*(s-a)*(s-b)*(s-c))**0.5
+a = ((x0 - x1) ** 2 + (y0 - y1) ** 2) ** 0.5
+b = ((x1-x2) ** 2 + (y1 - y2 ) ** 2) ** 0.5
+c = ((x2 - x0) ** 2 + (y2 - y0) ** 2) ** 0.5
+s = (a + b + c) / 2
+area = (s * (s - a ) * (s - b) * (s - c)) ** 0.5
 
 ###################################################
 # Test output

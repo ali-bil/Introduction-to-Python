@@ -3,7 +3,7 @@
 ###################################################
 # Rectangle perimeter formula
 # Student should enter statement on the next line.
-print (2*4+2*7)
+print (2 * 4 + 2 * 7)
 
 
 ###################################################

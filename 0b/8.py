@@ -10,20 +10,20 @@ last_name = "Warren"
 
 
 # Test 2 - Select the following lines and use ctrl+shift+k to uncomment.
-first_name = "Scott"
+'''first_name = "Scott"
 last_name = "Rixner"
-
+'''
 
 # Test 3 - Select the following lines and use ctrl+shift+k to uncomment.
-first_name = "John"
-last_name = "Greiner"
+'''first_name = "John"
+last_name = "Greiner"'''
 
 
 ###################################################
 # Name tag formula
 # Student should enter formula on the next line.
 
-name_tag="My name is "+first_name+" "+last_name+"."
+name_tag = "My name is "+ first_name + " " + last_name + "."
 
 ###################################################
 # Test output

@@ -10,20 +10,20 @@ age = 52
 
 
 # Test 2 - Select the following lines and use ctrl+shift+k to uncomment.
-name = "Scott Rixner"
-age = 40
+'''name = "Scott Rixner"
+age = 40'''
 
 
 # Test 3 - Select the following lines and use ctrl+shift+k to uncomment.
-name = "John Greiner"
-age = 46
+'''name = "John Greiner"
+age = 46'''
 
 
 ###################################################
 # Name and age formula
 # Student should enter formula on the next line.
 
-statement=name+" is "+str(age)+" years old."
+statement = name + " is " + str(age) + " years old."
 
 ###################################################
 # Test output

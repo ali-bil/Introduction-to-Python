@@ -3,7 +3,7 @@
 ###################################################
 # Name and age formula
 # Student should enter statement on the next line.
-print ("Joe Warren is "+str(52)+" years old.")
+print ("Joe Warren is " + str(52) + " years old.")
 
 ###################################################
 # Expected output

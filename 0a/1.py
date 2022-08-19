@@ -3,7 +3,7 @@
 ###################################################
 # Miles to feet conversion formula
 # Student should enter statement on the next line.
-print (5280*13)
+print (5280 * 13)
 
 
 ###################################################

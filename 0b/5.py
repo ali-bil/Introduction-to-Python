@@ -10,18 +10,18 @@ radius = 8
 
 
 # Test 2 - Select the following lines and use ctrl+shift+k to uncomment.
-radius = 3
+#radius = 3
 
 
 # Test 3 - Select the following lines and use ctrl+shift+k to uncomment.
-radius = 12.9
+#radius = 12.9
 
 
 ###################################################
 # Circle circumference formula
 # Student should enter formula on the next line.
 
-circumference=2*PI*radius
+circumference = 2 * PI * radius
 
 ###################################################
 # Test output

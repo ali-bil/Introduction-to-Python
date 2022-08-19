@@ -3,7 +3,7 @@
 ###################################################
 # Name tag formula
 # Student should enter statement on the next line.
-print ("My name is "+"Joe "+"Warren.")
+print ("My name is " + "Joe " + "Warren.")
 
 ###################################################
 # Expected output

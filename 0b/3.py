@@ -10,20 +10,20 @@ height = 7
 
 
 # Test 2 - Select the following lines and use ctrl+shift+k to uncomment.
-width = 7
-height = 4
+'''width = 7
+height = 4'''
 
 
 # Test 3 - Select the following lines and use ctrl+shift+k to uncomment.
-width = 10
-height = 10
+'''width = 10
+height = 10'''
 
 
 ###################################################
 # Rectangle perimeter formula
 # Student should enter formula on the next line.
 
-perimeter=(width+height)*2
+perimeter=(width + height) * 2
 
 ###################################################
 # Test output
