@@ -5,20 +5,20 @@
 
 def print_goodbye():
     message = "Goodbye"
-    print message
+    print (message)
 
 ###################################################
 # Tests
 
 message = "Hello"
-print message
+print (message)
 print_goodbye()
-print message
+print (message)
 
 message = "Ciao"
-print message
+print (message)
 print_goodbye()
-print message
+print (message)
 
 
 ###################################################

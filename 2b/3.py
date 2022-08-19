@@ -6,7 +6,7 @@
 
 import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 
-count=0
+count = 0
 # Define event handlers for four buttons
 def reset():
     global count

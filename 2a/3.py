@@ -14,7 +14,7 @@ def increment():
     global count 
     count += 1    
 def print_count():
-    print count     
+    print (count)     
 def decrement():
     global count 
     count -= 1

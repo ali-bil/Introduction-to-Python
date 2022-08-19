@@ -6,20 +6,20 @@
 def set_goodbye():
     global message
     message = "Goodbye"
-    print message
+    print (message)
 
 ###################################################
 # Tests
 
 message = "Hello"
-print message
+print (message)
 set_goodbye()
-print message
+print (message)
 
 message = "Ciao"
-print message
+print (message)
 set_goodbye()
-print message
+print (message)
 
 
 ###################################################

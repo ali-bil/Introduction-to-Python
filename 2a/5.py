@@ -4,13 +4,14 @@
 # Open frame
 # Student should add code where relevant to the following.
 
-import simplegui 
 
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+ 
 message = "My second frame!"
 
 # Handler for mouse click
 def click():
-    print message
+    print (message)
 
 # Assign callbacks to event handlers
  

@@ -46,7 +46,7 @@ def rpsls(player_choice):
         # print a blank line to separate consecutive games
         
         # print out the message for the player's choice
-        print ("Player chooses "+player_choice)
+        print ("Player chooses "+ player_choice)
         
         # compute random guess for comp_number using random.randrange()
         comp_number = random.randrange(0,5)
