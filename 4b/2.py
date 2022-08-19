@@ -1,6 +1,5 @@
 # Ball radius control - version 1
-
-import simplegui
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 
 WIDTH = 300
 HEIGHT = 200

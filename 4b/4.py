@@ -1,6 +1,7 @@
 # Ball radius control - version 2
 
-import simplegui, math
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+import math
 
 WIDTH = 300
 HEIGHT = 200
@@ -23,7 +24,7 @@ def keyup(key):
         ball_growth = 0
     if key == simplegui.KEY_MAP["down"]:
         ball_growth = 0
-    # add code here
+ 
     
     
 # Handler to draw on canvas
@@ -33,8 +34,8 @@ def draw(canvas):
         ball_radius += ball_growth
     else:
         ball_radius += BALL_GROWTH_INC
-    # add code here
-    print  ball_radius
+   
+    print  (ball_radius)
     # note that CodeSkulptor throws an error if radius is not positive
     canvas.draw_circle([WIDTH / 2, HEIGHT / 2], ball_radius, 1, "White", "White")
 

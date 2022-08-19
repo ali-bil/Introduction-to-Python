@@ -5,7 +5,7 @@
 # each having their own start and stop buttons.
 # Find and correct the error in the code below.
 
-import simplegui
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 
 # Initialize two counters.
 counter1 = [0, 0]
@@ -44,8 +44,8 @@ def tick2():
         
 # Define draw handler.
 def draw(canvas):
-    canvas.draw_text("Timer 1:     " + str(counter1[0] % 10) + "." + str(counter1[1]), [50, 100], 24, "White")
-    canvas.draw_text("Timer 2:     " + str(counter2[0] % 10) + "." + str(counter2[1]), [50, 200], 24, "White")
+    canvas.draw_text("Timer 1: " + str(counter1[0] % 10) + "." + str(counter1[1]), [50, 100], 24, "White")
+    canvas.draw_text("Timer 2: " + str(counter2[0] % 10) + "." + str(counter2[1]), [50, 200], 24, "White")
 
 # Register event handlers.
 frame = simplegui.create_frame("Mystery bug", 300, 300)

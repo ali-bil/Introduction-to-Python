@@ -1,6 +1,6 @@
 # Key board debugging - debug and fix the code below
 
-import simplegui
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 
 message = "Welcome!"
 
@@ -11,7 +11,7 @@ def keydown(key):
         message = "Up arrow"
     elif key == simplegui.KEY_MAP["down"]:
         message = "Down arrow"
-    print message
+    print (message)
 # Handler to draw on canvas
 def draw(canvas):
     canvas.draw_text(message, [50,112], 48, "Red")

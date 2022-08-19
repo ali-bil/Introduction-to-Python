@@ -1,6 +1,6 @@
 # Space bar status
 
-import simplegui
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 
 message = "Space bar up"
 
