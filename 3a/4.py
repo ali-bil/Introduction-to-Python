@@ -6,16 +6,16 @@
 def format_time(time):
     minutes = time // 60
     seconds = time % 60
-    return str(minutes)+" minutes and "+str(seconds)+" seconds"
+    return str(minutes) + " minutes and " + str(seconds) + " seconds"
 
 
 ###################################################
 # Tests
 
-print format_time(23)
-print format_time(1237)
-print format_time(0)
-print format_time(1860)
+print (format_time(23))
+#print (format_time(1237))
+#print (format_time(0))
+#print (format_time(1860))
 
 ###################################################
 # Output to console

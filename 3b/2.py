@@ -3,14 +3,15 @@
 ###################################################
 # Student should add code where relevant to the following.
 
-import simplegui 
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+ 
 
 counter = 0
 
 # Timer handler
 def tick():
     global counter
-    print counter
+    print (counter)
     counter += 1
     
 # Event handlers for buttons    

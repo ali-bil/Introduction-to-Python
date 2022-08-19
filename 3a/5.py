@@ -4,7 +4,9 @@
 # Student should add code where relevant to the following.
 
 
-import simplegui 
+
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+ 
 
 # Define globals - Constants are capitalized in Python
 HEIGHT = 400
@@ -14,7 +16,7 @@ ball_radius = 20
 
 # Draw handler
 def draw(canvas):
-    canvas.draw_circle((WIDTH//2, HEIGHT//2), ball_radius, 1, 'White','White')
+    canvas.draw_circle((WIDTH // 2, HEIGHT // 2), ball_radius, 1, 'White','White')
     
 # Event handlers for buttons
 def increase_radius():

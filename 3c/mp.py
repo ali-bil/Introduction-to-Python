@@ -1,4 +1,6 @@
-import simplegui
+
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+ 
 # template for "Stopwatch: The Game"
 
 # define global variables
@@ -16,7 +18,7 @@ def format(t):
     C = t % 100 / 10
     D = t % 10
     
-    return str(A)+":"+str(B)+str(C)+"."+str(D)
+    return str(A) + ":" + str(B) + str(C) + "." + str(D)
     
 # define event handlers for buttons; "Start", "Stop", "Reset"
 def reset():
@@ -50,9 +52,9 @@ def tick():
 # define draw handler
 
 def draw_handler(canvas):
-    pricol = str(stops)+"/"+str(total_stops)
-    canvas.draw_text(stopwatch, (HEIGHT//2.5,WIDTH//2), 50, 'Gray', 'serif')
-    canvas.draw_text(pricol, (HEIGHT-0.2*HEIGHT,WIDTH-0.8*WIDTH), 50, 'Red', 'serif')
+    score = str(stops) + "/" + str(total_stops)
+    canvas.draw_text(stopwatch, (HEIGHT // 2.5,WIDTH // 2), 50, 'Gray', 'serif')
+    canvas.draw_text(score, (HEIGHT - 0.2 * HEIGHT, WIDTH - 0.8 * WIDTH), 50, 'Red', 'serif')
 
 
  

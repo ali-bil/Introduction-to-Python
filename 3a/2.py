@@ -3,11 +3,13 @@
 ###################################################
 # Student should add code where relevant to the following.
 
-import simplegui 
+
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+ 
 
 # Draw handler
 def draw(canvas):
-    canvas.draw_text("This is easy?",[90,100],49,"Red")
+    canvas.draw_text("This is easy?" , [90, 100], 49, "Red")
 
 # Create frame and assign callbacks to event handlers
 frame = simplegui.create_frame("This is easy", 400, 200)

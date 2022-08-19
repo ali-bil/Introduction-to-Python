@@ -3,7 +3,9 @@
 ###################################################
 # Student should add code where relevant to the following.
 
-import simplegui 
+
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+ 
 
 color = "Red"
 

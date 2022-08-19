@@ -3,7 +3,9 @@
 ###################################################
 # Student should add code where relevant to the following.
 
-import simplegui 
+
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+ 
 
 total_ticks = 0
 first_click = True
@@ -24,7 +26,7 @@ def click():
     else:
         timer.stop()
         first_click = True
-        print total_ticks/100.0 ,"seconds between click"
+        print (total_ticks/100.0 ,"seconds between click")
         total_ticks = 0
 
 # Create frame and timer
