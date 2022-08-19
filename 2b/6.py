@@ -3,7 +3,8 @@
 ###################################################
 # Student should add code where relevant to the following.
 
-import simplegui
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+
 import random
 
 # Functions that compute RPSLS
@@ -45,7 +46,7 @@ def rpsls(player_choice):
         # print a blank line to separate consecutive games
         
         # print out the message for the player's choice
-        print "Player chooses "+player_choice
+        print ("Player chooses "+player_choice)
         
         # compute random guess for comp_number using random.randrange()
         comp_number = random.randrange(0,5)
@@ -54,21 +55,21 @@ def rpsls(player_choice):
         comp_choice = number_to_name(comp_number)
         
         # print out the message for computer's choice
-        print "Computer chooses "+comp_choice  
+        print ("Computer chooses "+comp_choice  )
         
         # compute difference of comp_number and player_number modulo five
         difference = (comp_number - player_number)%5
         # use if/elif/else to determine winner, print winner message
         if difference == 1 or difference == 2 :
-            print "Computer wins!"
+            print ("Computer wins!")
         elif difference == 3 or difference == 4 :
-            print "Player wins!"
+            print ("Player wins!")
         elif difference == 0:
-            print "Player and computer tie!"
+            print( "Player and computer tie!")
         else:
-            print "not correct difference"
+            print ("not correct difference")
     else: 
-            print "Error: Bad input "+player_choice+" to rpsls"
+            print ("Error: Bad input "+player_choice+" to rpsls")
    
     
 # Handler for input field

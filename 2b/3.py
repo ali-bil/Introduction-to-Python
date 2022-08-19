@@ -3,7 +3,9 @@
 ###################################################
 # Student should enter their code below
 
-import simplegui
+
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+
 count=0
 # Define event handlers for four buttons
 def reset():
@@ -19,7 +21,7 @@ def increment():
     count += 1
     
 def print_count():
-    print count
+    print (count)
 
     
 # Create frame and assign callbacks to event handlers

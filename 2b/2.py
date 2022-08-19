@@ -3,7 +3,8 @@
 ###################################################
 # Student should add code where relevant to the following.
 
-import simplegui 
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+
 
 
 # Handlers for buttons
@@ -16,7 +17,7 @@ def set_blue():
     color = "blue"
     
 def print_color():
-    print color
+    print (color)
 
 # Create frame
 frame = simplegui.create_frame("Set and print colors", 200, 200)

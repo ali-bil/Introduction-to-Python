@@ -3,7 +3,8 @@
 ###################################################
 # Student should add code where relevant to the following.
 
-import simplegui 
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+
 
 # Pig Latin helper function
 def pig_latin(word):
@@ -19,7 +20,7 @@ def pig_latin(word):
  
 # Handler for input field
 def get_input(inp):
-    print pig_latin(inp)
+    print (pig_latin(inp))
 
 # Create frame and assign callbacks to event handlers
 frame = simplegui.create_frame("Pig Latin translator", 200, 200)
