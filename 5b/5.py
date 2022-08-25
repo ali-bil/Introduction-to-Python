@@ -1,4 +1,4 @@
-# Image positioning problem
+# Challenge
 
 
 import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
