@@ -4,6 +4,7 @@
 # Student should enter function on the next lines.
 
 def set_goodbye():
+    
     global message
     message = "Goodbye"
     print (message)
