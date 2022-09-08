@@ -1,82 +1,83 @@
-# template for "Guess the number" mini-project
-# input will come from buttons and an input field
-# all output for the game will be printed in the console
-
+# "Guess the number" mini-project
 
 import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
- 
 import random
 
-# helper function to start and restart the game
+
+# define global variables
+range = 100
+secret_number = 0
 def new_game():
     # initialize global variables used in your code here
-    global count, maxN,minN,secret_number
-    count,minN = 0,0
-    input_guess
-
-
-# define event handlers for control panel
+    global secret_number, max_guesses,count_guesses,guesses_remaining
+    secret_number = random.randrange(0, range)
+    count_guesses = 1
+    if range == 100:
+        max_guesses = 7
+    else:
+        max_guesses = 10
+    guesses_remaining = max_guesses
+    print ("New game. Range is from 0 to", range)
+    print ("Number of remaining guesses is", max_guesses)
+ 
 def range100():
     # button that changes the range to [0,100) and starts a new game 
-    global count, maxN,minN,secret_number
-    print()
-    print ("Range is [0,100)")
-    count = 7 
-    minN = 0
-    maxN = 99
-    secret_number =  random.choice(range(minN,maxN))
-    print ("Number of remaining guesses is ",count)
-    input_guess
-     
+    global range
+    range = 100
+    new_game()
 
 def range1000():
     # button that changes the range to [0,1000) and starts a new game     
-    global count, maxN,minN,secret_number
-    print
-    print ("Range is [0,1000)")
-    count = 10
-    minN = 0
-    maxN = 999
-    secret_number =  random.choice(range(minN,maxN))
-    print ("Number of remaining guesses is ",count)
-    input_guess
-    
-    
+    global range
+    range = 1000
+    new_game()
+  
 def input_guess(guess):
     # main game logic goes here	
-    global count, maxN,minN,secret_number
+    global count_guesses, inp
+  
+
+    try:
+            guess_num = int(guess)
+            print("Guess №" + str(count_guesses) + " out of " + str(max_guesses) + " was " + guess)
+            guess_num = int(guess)
+             
+    except ValueError:
+            print("Error! Not number")
+            return
+    except NameError:
+            print("Error! Press button please")
+            return
     
-    print
-    if count > 0:
-        count -= 1
-        print( "Guess was "+guess)
-        print ("Number of remaining guesses is ",count)
-        guess = int(guess)
-        if guess > maxN or guess < minN:
-            print ("out of range")
-        else:
-            if guess > secret_number:
-                print ("Lower!")
-            elif  guess < secret_number:
-                print ("Higher!")
-            else:
-                print ("Correct!")
-        
+
+    #inp.set_text("") нужно вернуть каретку на начало строки (не знаю как)
+     
+    if guess_num > range or guess_num < 0:
+            print("Out of range")
+            return
+ 
+    if guess_num == secret_number:
+        print("You guessed it!\n")
+        new_game()
     else:
-        print( "You ran out of guesses.  The number was ", secret_number)
-    
+        count_guesses += 1
+        if count_guesses <= max_guesses:
+            if guess_num > secret_number:
+                print("Enter a lower number.")
+            elif guess_num < secret_number:
+                print("Enter a higher number.")
+        else:
+            print("Secret number :",secret_number,". Game over. \n")
+            new_game()
+ 
 # create frame
 
 frame = simplegui.create_frame("Game", 100, 200)
 frame.add_button("Range is [0,100)", range100)
 frame.add_button("Range is [0,1000)", range1000)
-frame.add_input("Enter a guess", input_guess, 100)
-# register event handlers for control elements and start frame
- 
+inp = frame.add_input("Enter a guess", input_guess, 100)
+
+# start frame
 frame.start()
-
-# call new_game 
-new_game()
-
-
-# always remember to check your completed program against the grading rubric
+ 
+ 
