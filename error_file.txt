@@ -1,2 +1,0 @@
-C:\Users\AliBil\Documents\GitHub\Introduction-to-Python/stop.txt : not open 
-C:\Users\AliBil\Documents\GitHub\Introduction-to-Python/files.txt : not open 
